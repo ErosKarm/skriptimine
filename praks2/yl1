@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# tervitusskript
+#
+echo -n "Tere, Eros! " #
+echo " " #
+#
+# skripti lõpp
