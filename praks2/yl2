@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# kirjeldan oma muljeid
+#
+echo "Minu nimi on Eros Karm"
+echo "Õpin momendil ISP118"
+echo "See aine tundub vägagi huvitav, võib keeruliseks minna, aga meeldib."
+echo "Tahaks kindlasti areneda selles aines ja rohkem teada sellest üleüldiselt."
+#
+#
