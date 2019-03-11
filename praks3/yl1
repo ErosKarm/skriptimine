@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+echo  #lisab tühimiku
+echo -n "Today is, " #kirjutame mis kuupäev täna on
+echo `date +"%A,%B %-d, %Y"`  #kuvame päeva, kuu ja aasta väljatrükituna
+echo -n "Time is "  #kirjutame et kell on
+echo `date +%R` #selle käsklusega kuvame ainult kellaaja
+echo  #tühimik
+echo -n "Calendar of "  #kirjutame et kalender...
+cal #kuvame kalendri
+#
+
+#
