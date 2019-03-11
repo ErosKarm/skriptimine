@@ -2,7 +2,7 @@
 #
 # tervitusskript
 #
-echo -n "Tere, Eros! " #
-echo " " #
+echo -n "Tere, Eros! " #siia kirjutasin enda skripti -n tähendab, et reavahetust ei ole
+echo " " #siia jätsin tühiku ja ilma -n, sest me soovime reavahetust
 #
 # skripti lõpp
