@@ -1,0 +1,6 @@
+#/bin/bash
+#
+#skripti algus
+find /var/ -name "*.log" 2>/dev/null -exec wc -l {} + | sort -nr
+#skripti lõpp
+#
