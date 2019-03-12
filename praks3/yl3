@@ -1,0 +1,8 @@
+#/bin/bash/
+#
+#
+#
+echo -n $HOSTNAME "at" #põhimõtteliselt echoga väljlastame hostname käsi ja lisame veel at-i juurde 
+uptime | cut -f1 -d"," väljastame hosttime käsu ja cutime sealt välja esimese koma
+#
+#
