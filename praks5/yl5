@@ -1,0 +1,8 @@
+#
+#
+echo -n "Sisesta täisnurkse kolmnurga a külje väärtus cm: "
+read a
+echo -n "Sisesta täisnurkse kolmnurga b külje väärtus cm: "
+read b
+vastus=$(bc <<< "scale=3;sqrt($a^2 + $b^2)")
+echo "Antud kolmnurga hüpotees (c) oleks cm: $vastus"
