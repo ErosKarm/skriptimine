@@ -1,0 +1,9 @@
+#/bin/bash
+#
+echo -n "Sisesta reisjate arv grupis: "
+read reisjad
+echo -n "Sisesta kohtade arv bussis: "
+read kohad
+x=`expr $kohad - $reisjad`
+echo "Vaba kohti on veel bussis: $x"
+echo "Kui arv on - miinuses siis tähendab, et nii palju inimesi jäi maha."
