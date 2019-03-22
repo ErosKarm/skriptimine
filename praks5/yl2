@@ -1,0 +1,18 @@
+#
+#
+echo -n "Sistesta a külje väärtus: "
+read a
+echo -n "Sisesta b külje väärtus: "
+read b
+echo -n "Sisesta c külje väärtus: "
+read c
+#kogun kokku andmed mis sisestatakse.
+
+p=$(bc <<< "scale=2;($a + $b + $c) / 2")
+#selle ülemise valemiga arvutasin kolmnurga pool ümbermõõdust
+
+kolmnurgapindala=$(bc <<< "scale=3;sqrt($p * ($p - $a) * ($p - $b) * ($p - $c))")
+#ülemise arvutusega arvutan väöja kolmnurga pindala
+
+echo "Teie antud sisestatud väärtuste kolmnurga pindala on $kolmnurgapindala ruutcm"
+#echo abil kuvan lisateksti ja pindala väärtuse
