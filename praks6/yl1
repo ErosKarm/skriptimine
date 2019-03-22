@@ -1,0 +1,9 @@
+echo "Skript kontrollib kas, arv on paaris või paaritu arv"
+echo -n "Sisestage palun täisarv: "
+read a
+if test `expr $a % 2` -eq 0
+then
+echo "$a on paaris arv"
+else
+echo "$a on paaritu arv"
+fi 
