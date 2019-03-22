@@ -1,0 +1,10 @@
+#
+#
+echo -n "Sisesta täisnurkse kolmnurga a külje väärtus cm: "
+read a
+echo -n "Sisesta täisnurkse kolmnurga b külje väärtus cm: "
+read b
+vastus=$(bc <<< "scale=3;sqrt($a^2 + $b^2)")
+#sellega arvutame, scale näitab meile komakoti ning sqrt käsuga
+#paneme ruutjuurde, ja ^2 korrutab antud arvu kahega
+echo "Antud kolmnurga hüpotees (c) oleks cm: $vastus"
