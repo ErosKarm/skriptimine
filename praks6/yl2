@@ -1,0 +1,16 @@
+#!/bin/bash
+#siin küsin inimeste andmeid
+echo -n "Sisesta reisjate arv: " 
+read reisjad
+echo -n "Sisesta kohtade arv bussis: "
+read kohad
+#
+bussid=$(($reisjad / $kohad))
+
+ylejaanud=$(($reisjad % $kohad))
+
+if test $ylejaanud -gt 0
+then 
+bussid=$(($bussid + 1))
+fi
+echo "Kokku on vaja $bussid taisbussi"
