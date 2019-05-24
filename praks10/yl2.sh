@@ -1,5 +1,7 @@
+#/bin/bash#
 echo -n "Sisestage kuu number: "
 read kuu
+#if lahenudse abil teeme selle ülesande
 if test $kuu -eq 1 -o $kuu -eq 2 -o $kuu -eq 12
 then 
 echo "Teie sisestatud kuu on TALV"
@@ -15,3 +17,4 @@ echo "Teie sisestatud kuu on SÜGIS"
 else
 echo "Meil on siiski 12 kuud kalendris."
 fi
+#skripti lõpp"
