@@ -1,0 +1,13 @@
+#!/bin/bash
+#palun sisestada numbri
+echo -n "Sisesta täiesti suvaline täisarv: "
+read arv
+sum=0
+#loen arvu
+while [ $arv != 0 ]
+do 
+num=$(($arv % 10))
+sum=$(($sum + $num))
+arv=$(($arv / 10))
+done
+echo $sum
