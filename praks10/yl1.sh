@@ -1,3 +1,4 @@
+#/bin/bash#
 echo -n "Palun sisestage siia oma vanus: "
 read vanus
 #loen vanuse
