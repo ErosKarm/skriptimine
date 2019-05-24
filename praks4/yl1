@@ -1,7 +1,8 @@
 #/bin/bash#
-#
+#küsime ees ja perekonnanime
 echo -n "Sisesta oma ees- ja perekonna nimi: "
 read yourname
+#kuvame ees ja perekonnanime
 echo "Tere tulemast $yourname." 
 #
 #
