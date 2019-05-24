@@ -1,6 +1,7 @@
+#/bin/bash#
 echo -n -e "Sisestage palun siia aeg tunni väärtuses: "
 read aeg
-
+#sama nagu eelmine ülesanne, kuid lisasime juurde $USER!, mis kuvab kasutajanime.
 if [ $aeg -ge 6 -a $aeg -lt 12 ]; then
 echo "Tere hommikust $USER!"
 elif [ $aeg -ge 12 -a $aeg -lt 18 ]; then
