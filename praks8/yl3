@@ -1,0 +1,6 @@
+
+echo -n "Sisesta kuu number: "
+read kuu
+erinevadkuud=(jaanuar veebruar marts aprill mai juuni juuli august september oktoober november detsember)
+praegunekuu=${erinevadkuud[$((kuu -1))]}
+echo "See on $praegunekuu"
